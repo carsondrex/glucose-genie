@@ -38,4 +38,16 @@ final class GlucoseGenieUITests: XCTestCase {
             }
         }
     }
+    
+    //Begin actual tests
+    func testGroceryStoreMapNavigation() {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let findGroceryStorePredicate = NSPredicate(format: "text beginswith 'Find Grocery Store'")
+        
+        app.tables.buttons.element(matching: findGroceryStorePredicate).tap()
+        
+        app.navigationBars.buttons["Back"].tap()
+    }
 }

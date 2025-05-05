@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "59B0D442-28AC-4986-9BA5-A424165F9511",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "GlucoseGenieUITests\/testGroceryStoreMapNavigation()"
+      ],
+      "target" : {
+        "containerPath" : "container:GlucoseGenie.xcodeproj",
+        "identifier" : "FD2EC0E12D63C40000525F77",
+        "name" : "GlucoseGenieUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
